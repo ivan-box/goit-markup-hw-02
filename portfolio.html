@@ -11,27 +11,27 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
-      <a class="logo" href=""><span class="accent-color">Web</span>Studio</a>
+      <a class="logo list" href=""><span class="accent-color">Web</span>Studio</a>
       <nav>
-        <ul>
+        <ul class="list">
           <li>
-            <a class="reference navigation" href="./index.html">Studio</a>
+            <a class="navigation" href="./index.html">Studio</a>
           </li>
           <li>
-            <a class="reference navigation" href="./portfolio.html"
+            <a class="navigation current" href="./portfolio.html"
               >Portfolio</a
             >
           </li>
           <li>
-            <a class="reference navigation" href="">Contacts</a>
+            <a class="navigation" href="">Contacts</a>
           </li>
         </ul>
       </nav>
-      <ul>
+      <ul class="list">
         <li>
           <a class="reference" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
@@ -46,9 +46,9 @@
     </header>
     <main>
       <section>
-        <h1>Selection buttons</h1>
+        <h1>Examples of works</h1>
         <nav>
-          <ul>
+          <ul class="list">
             <li><button class="buttons" type="button">All</button></li>
             <li><button class="buttons" type="button">Web sites</button></li>
             <li><button class="buttons" type="button">Applications</button></li>
@@ -56,68 +56,65 @@
             <li><button class="buttons" type="button">Marketing</button></li>
           </ul>
         </nav>
-      </section>
-      <section>
-        <h1>Examples of works</h1>
-        <ul>
+        <ul class="list">
           <li>
-            <a href="">
+            <a class="list" href="">
               <img src="./image/img1.jpg" alt="" width="370" />
               <h2 class="examples-title">Technocrat</h2>
               <p class="example-work">Web site</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="list" href="">
               <img src="./image/img2.jpg" alt="" width="370" />
               <h2 class="examples-title">Poster New Orlean vs Golden Star</h2>
               <p class="example-work">Design</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="list" href="">
               <img src="./image/img3.jpg" alt="" width="370" />
               <h2 class="examples-title">Seafood Restaurant</h2>
               <p class="example-work">Application</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="list" href="">
               <img src="./image/img4.jpg" alt="" width="370" />
               <h2 class="examples-title">Project Prime</h2>
               <p class="example-work">Marketing</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="list" href="">
               <img src="./image/img5.jpg" alt="" width="370" />
               <h2 class="examples-title">Project Boxes</h2>
               <p class="example-work">Application</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="list" href="">
               <img src="./image/img6.jpg" alt="" width="370" />
               <h2 class="examples-title">Inspiration has no Borders</h2>
               <p class="example-work">Web site</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="list" href="">
               <img src="./image/img7.jpg" alt="" width="370" />
               <h2 class="examples-title">Edition Limited Edition</h2>
               <p class="example-work">Design</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="list" href="">
               <img src="./image/img8.jpg" alt="" width="370" />
               <h2 class="examples-title">Project LAB</h2>
               <p class="example-work">Marketing</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="list" href="">
               <img src="./image/img9.jpg" alt="" width="370" />
               <h2 class="examples-title">Growing Business</h2>
               <p class="example-work">Application</p>
@@ -126,29 +123,31 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a class="logo" href="./index.html"
-        ><span class="accent-color">Web</span>Studio</a
+    <footer class="footer">
+      <a class="logo list" href="./index.html"
+        ><span class="accent-color">Web</span
+        ><span class="white-text">Studio</span></a
       >
       <address>
-        <ul>
+        <ul class="list">
           <li>
-            <a
-              class="reference"
+            <a class="list"
               href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
               target="_blank"
               rel="noopener noreferrer"
-              >Kyiv, Lesia Ukrainka Ave, 26</a
+              ><span class="reference address"
+                >Kyiv, Lesia Ukrainka Ave, 26</span
+              ></a
             >
           </li>
           <li>
-            <a class="reference" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a class="list"href="mailto:info@devstudio.com"
+              ><span class="reference mail">info@devstudio.com</span></a
             >
           </li>
           <li>
-            <a class="reference" href="tel:+38-096-111-11-11"
-              >+38 096 111 11 11</a
+            <a class="list"href="tel:+38-096-111-11-11"
+              ><span class="reference phone">+38 096 111 11 11</span></a
             >
           </li>
         </ul>

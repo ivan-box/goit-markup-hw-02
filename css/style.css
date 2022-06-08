@@ -5,6 +5,8 @@
         --accent-color: #2196F3;
         --primary-bg-color: #E5E5E5;
         --secondary-bg-color: #F5F4FA;
+        --footer-bg-color: #2F303A;
+        --footer-text-color: rgba(255, 255, 255, 0.6);
     }
 
 body {
@@ -19,6 +21,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    color: var(--primary-text-color);
 }
 
 .hero{
@@ -29,6 +32,7 @@ body {
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero-button {
@@ -37,6 +41,7 @@ body {
     line-height: 1.88;
     align-items: center;
     letter-spacing: 0.06em;
+    font-family: inherit;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -48,9 +53,11 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .advantages-text{
+    color: var(--secondary-text-color);
     font-size: 14px;
     line-height: 1.71;
 }
@@ -86,6 +93,7 @@ body {
     font-size: 16px;
     line-height: 1.63;
     cursor: pointer;
+    font-family: inherit;
 }
 
 .reference {
@@ -95,10 +103,21 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+        
 }
 
 .navigation {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    
+}
+
+.list {
+    list-style-type: none;
     text-decoration: none;
 }
 
@@ -111,6 +130,18 @@ body {
     color: var(--accent-color);
     
 }
+
+.navigation:hover, .navigation:focus {
+    color: var(--accent-color);
+    
+}
+
+.current:active,
+.current:visited {
+    color: var(--accent-color);
+
+}
+
 
 .examples-title {
     color: var(--primary-text-color);
@@ -126,3 +157,28 @@ body {
     line-height: 1.88;
     
 }
+
+.footer {
+    background-color: var(--footer-bg-color);
+}
+
+.white-text {
+    color: var(--accent-text-color);
+}
+
+.address {
+    color: var(--accent-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}
+
+.mail, .phone {
+    color: var(--footer-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    
+}
+
+ 
