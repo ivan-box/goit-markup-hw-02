@@ -1,3 +1,10 @@
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
 :root {
         --primary-text-color: #212121;
         --secondary-text-color: #757575;
@@ -39,7 +46,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    align-items: center;
+    /* align-items: center; */
     letter-spacing: 0.06em;
     font-family: inherit;
 }
@@ -181,4 +188,12 @@ body {
     
 }
 
- 
+.mail:hover, 
+.mail:focus,
+.phone:hover, 
+.phone:focus,
+.address:hover,
+.address:focus {
+     color: var(--accent-color);
+
+ }        
